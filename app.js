@@ -42,7 +42,7 @@ const toggleTask = (event) => {
   const taskItem = event.target.parentNode;
   taskItem.classList.toggle("completed");
 };
-//Event listerners
+//Event listeners
 addTaskButton.addEventListener("click", addTask);
 todoInput.addEventListener("keydown", function (event) {
   if (event.key === "Enter") {
